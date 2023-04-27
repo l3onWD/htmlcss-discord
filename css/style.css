@@ -167,6 +167,11 @@ header {
 }
 
 
+/* Navbar Logo */
+.navbar-logo img {
+    height: 35px;
+}
+
 /* Navbar Menu */
 .navbar-menu ul {
     display: flex;
@@ -175,7 +180,9 @@ header {
 
 .navbar-menu a {
     display: block;
-    padding: 0 10px;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
 }
 
 
