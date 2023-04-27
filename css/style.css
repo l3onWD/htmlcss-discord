@@ -23,6 +23,10 @@
 
 
 /* Generics */
+body {
+    font-family: sans-serif;
+}
+
 ul {
     list-style: none;
 }
