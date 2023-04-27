@@ -268,9 +268,14 @@ header {
 }
 
 
-/* Main Footer */
+/* Footer */
 footer {
     padding: 80px;
+    color: #fff;
+}
+
+footer h3 {
+    color: var(--color-lightblue);
 }
 
 .footer-top {
@@ -282,17 +287,41 @@ footer {
 
 .footer-top .footer-col-small {
     flex-basis:  25%;
-    background-color: var(--color-peach);
 }
 
 .footer-top .footer-col-large {
     flex-basis:  75%;
-    background-color: var(--color-emerald);
 }
 
 
+/* Footer lang */
+.footer-lang * {
+    vertical-align: middle;
+}
 
+.footer-lang img {
+    width: 20px;
+}
 
+.footer-lang span {
+    font-size: 12px;
+}
+
+.footer-lang i {
+    margin-left: 4px;
+}
+
+/* Footer social */
+.footer-social {
+    display: flex;
+    margin-top: 8px;
+}
+
+.footer-social a {
+    display: block;
+    padding: 12px;
+    color: #fff;
+}
 
 
 
