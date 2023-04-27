@@ -3,10 +3,10 @@
     --color-cyan: #add8e6;
     --color-emerald: #20b2aa;
     --color-blue: #3161e0;
+    --color-lightblue: #8ea1e1;
     --color-gold: #daa520;
     --color-pink: #ee82ee;
     --color-peach: #f08080;
-    --color-green: #228b22;
     --color-gray: #f6f6f6;
     --color-dark: #23272a;
 
@@ -34,6 +34,11 @@ h1 {
 h2 {
     font-size: 40px;
     margin-bottom: 22px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
 }
 
 p {
@@ -82,14 +87,14 @@ section {
     background-color: var(--color-gray);
 }
 
-.bg-green {
-    background-color: var(--color-green);
+.text-center {
+    text-align: center;
 }
+
 
 .border-dashed {
     border: 2px dashed #000;
 }
-
 
 .h-400 {
     min-height: 400px;
@@ -103,6 +108,8 @@ section {
     margin: 30px 0;
     border: 1px solid #fff;
 }
+
+
 
 
 /* Layout */
@@ -122,6 +129,10 @@ section {
     padding: 0 48px;
 }
 
+.row .col-full {
+    flex-basis: 100%;
+    padding: 0 48px;
+}
 
 .col-25 {
     flex-basis:  25%;
@@ -219,6 +230,11 @@ header {
     background-color: var(--color-dark);
 }
 
+.btn.btn-blue {
+    color: #fff;
+    background-color: var(--color-lightblue);
+}
+
 
 /* Jumbotron */
 .jumbotron {
@@ -254,6 +270,7 @@ header {
 .wave.invert {
     rotate: 0.5turn;
 }
+
 
 /* Main Footer */
 #main-footer {
