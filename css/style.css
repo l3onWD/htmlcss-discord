@@ -87,6 +87,10 @@ section {
     background-color: var(--color-gray);
 }
 
+.bg-dark {
+    background-color: var(--color-dark);
+}
+
 .text-center {
     text-align: center;
 }
@@ -102,11 +106,6 @@ section {
 
 .h-800 {
     min-height: 800px;
-}
-
-.separator {
-    margin: 30px 0;
-    border: 1px solid #fff;
 }
 
 
@@ -133,20 +132,6 @@ section {
     flex-basis: 100%;
     padding: 0 48px;
 }
-
-.col-25 {
-    flex-basis:  25%;
-    background-color: var(--color-peach);
-}
-
-.col-75 {
-    flex-basis:  75%;
-    background-color: var(--color-emerald);
-}
-
-.col .row .col {
-    border-color: #fff;
- }
 
 
 /*=====================================*/
@@ -265,7 +250,7 @@ header {
     background: url('../img/stars.svg') no-repeat;
     background-size: contain;
     width: 50%;
-    padding: 36px 0;
+    padding-top: 36px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -284,18 +269,32 @@ header {
 
 
 /* Main Footer */
-#main-footer {
-    padding: 6px 0 0 0;
-    background-color: var(--color-dark);
+footer {
+    padding: 80px;
 }
 
 .footer-top {
     display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--color-lightblue);
+    margin-bottom: 30px;
 }
 
-.footer-top > .col {
-    padding: 0;
+.footer-top .footer-col-small {
+    flex-basis:  25%;
+    background-color: var(--color-peach);
 }
+
+.footer-top .footer-col-large {
+    flex-basis:  75%;
+    background-color: var(--color-emerald);
+}
+
+
+
+
+
+
 
 .footer-bottom {
     padding: 20px 0;
