@@ -2,7 +2,7 @@
 :root {
     --color-cyan: #add8e6;
     --color-emerald: #20b2aa;
-    --color-blue: #00008b;
+    --color-blue: #3161e0;
     --color-gold: #daa520;
     --color-pink: #ee82ee;
     --color-peach: #f08080;
@@ -146,27 +146,38 @@ a {
 
 
 /*=====================================*/
-/* Main Header */
-#main-header {
-    padding: 10px;
-    background-color: var(--color-cyan);
+/* Navbar */
+header {
+    background-color: var(--color-blue);
 }
 
-#main-header .col {
-    background-color: var(--color-gold);
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-logo,
+.navbar .navbar-buttons {
+    flex-basis: 20%;
+}
+
+.navbar .navbar-menu {
+    flex-basis: 60%;
 }
 
 
-/* Main Menu */
-#main-menu ul {
+/* Navbar Menu */
+.navbar-menu ul {
     display: flex;
     justify-content: center;
 }
 
-#main-menu a {
+.navbar-menu a {
     display: block;
     padding: 0 10px;
 }
+
 
 
 /* Main Footer */
