@@ -195,6 +195,7 @@ header {
     border: 1px solid transparent;
     border-radius: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn.btn-primary {
@@ -205,6 +206,20 @@ header {
 .btn.btn-secondary {
     color: #fff;
     background-color: var(--color-dark);
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    height: 500px;
+    padding: 30px 0;
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+}
+
+.jumbotron-content {
+    height: 100%;
+    text-align: center;
 }
 
 
