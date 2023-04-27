@@ -5,7 +5,7 @@
     --color-gray: #e6e6e6;
     --color-dark: #23272a;
 
-    --container-md: 980px;
+    --container: 980px;
 }
 
 /* Resets */
@@ -57,7 +57,7 @@ section {
 
 /* Utils */
 .container {
-    max-width: var(--container-md);
+    max-width: var(--container);
     margin-left: auto;
     margin-right: auto;
 }
@@ -155,6 +155,10 @@ header {
     font-size: 14px;
 }
 
+.navbar-menu a:hover {
+    color: var(--color-dark);
+}
+
 
 /* Navbar Buttons */
 .navbar-buttons {
@@ -166,7 +170,7 @@ header {
 .btn {
     padding: 8px 14px;
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 18px;
     font-size: 12px;
     vertical-align: middle;
@@ -192,14 +196,30 @@ header {
     background-color: #fff;
 }
 
+.btn.btn-primary:hover {
+    color: var(--color-blue);
+    background-color: var(--color-gray);
+    border-color: var(--color-blue);
+}
+
 .btn.btn-secondary {
     color: #fff;
     background-color: var(--color-dark);
 }
 
+.btn.btn-secondary:hover {
+    color: var(--color-blue);
+    border-color: var(--color-blue);
+}
+
 .btn.btn-blue {
     color: #fff;
     background-color: var(--color-lightblue);
+}
+
+.btn.btn-blue:hover {
+    color: var(--color-dark);
+    border-color: var(--color-dark);
 }
 
 
@@ -314,6 +334,10 @@ footer h3 {
     color: #fff;
 }
 
+.footer-social a:hover {
+    color: var(--color-lightblue);
+}
+
 
 /* Footer nav */
 .footer-nav {
@@ -336,6 +360,10 @@ footer h3 {
     display: block;
     padding: 6px 0;
     color: #fff;
+}
+
+.footer-nav a:hover {
+    color: var(--color-lightblue);
 }
 
 
