@@ -283,7 +283,7 @@ footer h3 {
 
 
 /* Footer lang */
-.footer-lang * {
+.footer-lang > * {
     vertical-align: middle;
 }
 
@@ -303,6 +303,8 @@ footer h3 {
 /* Footer social */
 .footer-social {
     display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
     margin-top: 8px;
 }
 
