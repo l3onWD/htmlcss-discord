@@ -10,7 +10,7 @@
     --color-gray: #d3d3d3;
     --color-dark: #23272a;
 
-    --container-md: 1080px;
+    --container-md: 980px;
 }
 
 /* Resets */
@@ -31,6 +31,11 @@ h1 {
     margin-bottom: 30px;
 }
 
+h2 {
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+
 p {
     margin-bottom: 12px;
     line-height: 1.5;
@@ -46,7 +51,7 @@ ul {
 }
 
 section {
-    padding: 70px 0;
+    padding: 80px 0 120px 0;
 }
 
 /* Utils */
@@ -103,18 +108,18 @@ section {
 /* Layout */
 .row {
     display: flex;
+    margin-left: -48px;
+    margin-right: -48px;
 }
 
 .row .col-small {
-    flex-basis:  30%;
-    padding: 10px;
-    background-color: var(--color-pink);
+    flex-basis:  35%;
+    padding: 0 48px;
 }
 
 .row .col-large {
-    flex-basis: 70%;
-    padding: 10px;
-    background-color: var(--color-cyan);
+    flex-basis: 65%;
+    padding: 0 48px;
 }
 
 
@@ -237,9 +242,6 @@ header {
 .jumbotron-buttons .btn:first-child{
     margin-right: 18px;
 }
-
-
-
 
 
 /* Main Footer */
