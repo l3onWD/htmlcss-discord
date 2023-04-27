@@ -279,19 +279,25 @@ footer h3 {
     color: var(--color-lightblue);
 }
 
+
+/* Footer Top */
 .footer-top {
     display: flex;
     padding-bottom: 30px;
     border-bottom: 1px solid var(--color-lightblue);
     margin-bottom: 30px;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 .footer-top .footer-col-small {
     flex-basis:  25%;
+    padding: 0 12px;
 }
 
 .footer-top .footer-col-large {
     flex-basis:  75%;
+    padding: 0 12px;
 }
 
 
@@ -327,10 +333,13 @@ footer h3 {
 /* Footer nav */
 .footer-nav {
     display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
 }
 
 .footer-nav .footer-nav-col {
     flex-basis:  25%;
+    padding: 0 12px;
 }
 
 .footer-nav-title {
@@ -345,6 +354,7 @@ footer h3 {
 }
 
 
+/* Footer Bottom */
 .footer-bottom {
     padding: 20px 0;
     display: flex;
