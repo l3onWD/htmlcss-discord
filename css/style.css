@@ -1,13 +1,8 @@
 /* Variables */
 :root {
-    --color-cyan: #add8e6;
-    --color-emerald: #20b2aa;
     --color-blue: #3161e0;
     --color-lightblue: #8ea1e1;
-    --color-gold: #daa520;
-    --color-pink: #ee82ee;
-    --color-peach: #f08080;
-    --color-gray: #f6f6f6;
+    --color-gray: #e6e6e6;
     --color-dark: #23272a;
 
     --container-md: 980px;
@@ -89,13 +84,6 @@ section {
 }
 
 
-
-.border-dashed {
-    border: 2px dashed #000;
-}
-
-
-
 /* Layout */
 .row {
     display: flex;
@@ -116,6 +104,12 @@ section {
 .row .col-full {
     flex-basis: 100%;
     padding: 0 48px;
+}
+
+
+/* Debug */
+.border-dashed {
+    border: 2px dashed #000;
 }
 
 
@@ -247,7 +241,7 @@ header {
 /* Section Wave */
 .wave {
     height: 70px;
-    opacity: 0.03;
+    opacity: 0.09;
     background-image: url('../img/wave.svg');
 }
 
