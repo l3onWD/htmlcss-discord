@@ -272,6 +272,7 @@ header {
 footer {
     padding: 80px;
     color: #fff;
+    font-size: 14px;
 }
 
 footer h3 {
@@ -323,6 +324,25 @@ footer h3 {
     color: #fff;
 }
 
+/* Footer nav */
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav .footer-nav-col {
+    flex-basis:  25%;
+}
+
+.footer-nav-title {
+    color: var(--color-lightblue);
+    font-weight: bold;
+}
+
+.footer-nav a {
+    display: block;
+    padding: 6px 0;
+    color: #fff;
+}
 
 
 .footer-bottom {
